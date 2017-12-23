@@ -8,6 +8,7 @@
 		var result = 9999999999;
 		if (opt == 1) {
 			result = plus(inputNum01, inputNum02);
+			console.log("result in if : " + result);
 		} else if (opt == 2) {
 			result = minus(inputNum01, inputNum02);
 		} else if (opt == 3) {
@@ -17,5 +18,5 @@
 		} 
 		
 
-		printResult('result', result);
+		printResult('result',result);
 	}
